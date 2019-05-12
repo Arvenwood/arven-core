@@ -13,7 +13,7 @@ val implementation by project.configurations
 implementation.isCanBeResolved = true
 
 group = "arven"
-version = "0.1.0"
+version = "0.3.0"
 
 repositories {
     mavenCentral()
@@ -44,7 +44,7 @@ dependencies {
     implementation("com.github.TheFrontier:SKE:3917897ad3")
 
     // Command Tree System
-    implementation("com.github.TheFrontier:SKPC:af08cf3870")
+    implementation("com.github.TheFrontier:SKPC:0.3.0")
 
     // Database ORM
     implementation("org.jetbrains.exposed:exposed:0.13.6")
