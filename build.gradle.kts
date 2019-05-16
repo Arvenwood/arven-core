@@ -30,10 +30,12 @@ repositories {
 }
 
 dependencies {
+    // Kotlin
     implementation(kotlin("stdlib-jdk8"))
     implementation(kotlin("reflect"))
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.2.1")
 
+    // Sponge
     kapt("org.spongepowered:spongeapi:7.1.0")
     compileOnly("org.spongepowered:spongeapi:7.1.0")
 
@@ -41,7 +43,10 @@ dependencies {
     implementation("com.github.TheFrontier:SKD:094ab59a02")
 
     // Sponge Platform extension methods
-    implementation("com.github.TheFrontier:SKE:3917897ad3")
+    implementation("com.github.TheFrontier:SKE:0.3.0")
+
+    // Feature System
+    implementation("com.github.TheFrontier:SKF:0.3.0")
 
     // Command Tree System
     implementation("com.github.TheFrontier:SKPC:0.3.0")
